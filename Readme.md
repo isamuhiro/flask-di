@@ -15,3 +15,9 @@ export GITHUB_TOKEN=YOUR_GITHUB_TOKEN
 flask run
 ```
 
+## Endoints
+
+```bash
+curl --request GET \
+  --url 'http://localhost:5000/?query=Python&limit=10'
+```
