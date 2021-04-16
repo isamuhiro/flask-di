@@ -7,7 +7,7 @@ This project follows the dependency injection paradigms using Python, consuming 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements
+pip install -r requirements.txt
 
 export FLASK_APP=githubnavigator.application
 export FLASK_ENV=development
