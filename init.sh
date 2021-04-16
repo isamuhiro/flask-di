@@ -1,0 +1,4 @@
+export FLASK_APP=githubnavigator.application
+export FLASK_ENV=development
+export GITHUB_TOKEN=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
+flask run
